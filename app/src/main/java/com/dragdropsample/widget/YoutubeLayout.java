@@ -1,4 +1,4 @@
-package com.example.transition.widget;
+package com.dragdropsample.widget;
 
 import android.content.Context;
 import android.support.v4.view.MotionEventCompat;
@@ -9,7 +9,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.transition.R;
+import com.dragdropsample.R;
 
 public class YoutubeLayout extends ViewGroup {
 

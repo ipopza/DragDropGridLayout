@@ -10,7 +10,7 @@
 		android:tag="list"
 		/>
 
-	<com.example.transition.widget.YoutubeLayout
+	<com.dragdropsample.widget.YoutubeLayout
 		android:layout_width="match_parent"
 		android:layout_height="match_parent"
 		android:id="@+id/youtubeLayout"
@@ -39,5 +39,5 @@
 			android:layout_height="match_parent"
 			android:background="#FF00FF"/>
 
-	</com.example.transition.widget.YoutubeLayout>
+	</com.dragdropsample.widget.YoutubeLayout>
 </FrameLayout>

@@ -1,4 +1,4 @@
-package com.example.transition.widget;
+package com.dragdropsample.widget;
 
 import android.content.ClipData;
 import android.content.ClipDescription;
@@ -13,24 +13,24 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
-import com.example.transition.R;
+import com.dragdropsample.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class DragNDropLayout extends GridLayout implements View.OnLongClickListener, View.OnDragListener {
+public class DragDropGridLayout extends GridLayout implements View.OnLongClickListener, View.OnDragListener {
 
     private List<View> childs;
 
-    public DragNDropLayout(Context context) {
+    public DragDropGridLayout(Context context) {
         this(context, null);
     }
 
-    public DragNDropLayout(Context context, AttributeSet attrs) {
+    public DragDropGridLayout(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public DragNDropLayout(Context context, AttributeSet attrs, int defStyleAttr) {
+    public DragDropGridLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 

@@ -1,4 +1,4 @@
-package com.example.transition;
+package com.example.dragdrop;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

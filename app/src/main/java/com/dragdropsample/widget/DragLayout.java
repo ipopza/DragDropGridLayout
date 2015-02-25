@@ -1,4 +1,4 @@
-package com.example.transition.widget;
+package com.dragdropsample.widget;
 
 import android.content.Context;
 import android.support.v4.view.MotionEventCompat;
