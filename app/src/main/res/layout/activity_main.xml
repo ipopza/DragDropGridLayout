@@ -1,0 +1,41 @@
+<com.example.transition.widget.DragNDropLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	app:columnCount="3"
+	app:rowCount="2">
+
+	<ImageView
+		android:src="@drawable/abc_ic_voice_search_api_mtrl_alpha"
+		android:scaleType="centerInside"
+		android:layout_width="128dp"
+		android:layout_height="128dp"
+		android:background="#AD78CC"/>
+
+	<ImageView
+		android:src="@drawable/abc_ic_menu_cut_mtrl_alpha"
+		android:scaleType="centerInside"
+		android:layout_width="128dp"
+		android:layout_height="128dp"
+		android:layout_marginLeft="4dp"
+		android:layout_marginRight="4dp"
+		android:background="#ff434343"/>
+
+	<ImageView
+		android:src="@drawable/abc_ic_clear_mtrl_alpha"
+		android:scaleType="centerInside"
+		android:layout_width="128dp"
+		android:layout_height="128dp"
+		android:background="#fffa2532"/>
+
+	<ImageView
+		app:layout_columnSpan="3"
+		android:layout_marginTop="4dp"
+		android:src="@drawable/abc_ic_menu_share_mtrl_alpha"
+		android:scaleType="centerInside"
+		android:layout_width="match_parent"
+		android:layout_height="128dp"
+		android:background="#ff2b8fc7"/>
+
+</com.example.transition.widget.DragNDropLayout>

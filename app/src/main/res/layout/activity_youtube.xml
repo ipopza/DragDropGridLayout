@@ -1,0 +1,43 @@
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<ListView
+		android:id="@+id/listView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:tag="list"
+		/>
+
+	<com.example.transition.widget.YoutubeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/youtubeLayout"
+		android:orientation="vertical"
+		android:visibility="visible">
+
+		<TextView
+			android:id="@+id/viewHeader"
+			android:layout_width="match_parent"
+			android:layout_height="128dp"
+			android:fontFamily="sans-serif-thin"
+			android:textSize="25sp"
+			android:tag="text"
+			android:gravity="center"
+			android:textColor="@android:color/white"
+			android:background="#AD78CC"/>
+
+		<TextView
+			android:id="@+id/viewDesc"
+			android:tag="desc"
+			android:textSize="35sp"
+			android:gravity="center"
+			android:text="Loreum Loreum"
+			android:textColor="@android:color/white"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#FF00FF"/>
+
+	</com.example.transition.widget.YoutubeLayout>
+</FrameLayout>
